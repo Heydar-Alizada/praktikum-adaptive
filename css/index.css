@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Roboto', serif;
-   
 }
 
 main{
@@ -14,7 +13,7 @@ main{
 
 
 #about {
-    width: 1218px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -135,7 +134,7 @@ main{
 
 
     #duration {
-        max-width: 700px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         font-size: 9.5px;
@@ -147,7 +146,9 @@ main{
 
     .duration-container {
         margin-top: -2%;
-        max-width: 383px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -164,7 +165,7 @@ main{
 
 
     #about {
-        width: 308px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         font-size: 7.5px;
@@ -182,13 +183,13 @@ main{
     }
 
     .about-image-div{
-        width: 170.55px;
+        width: 60%;
         margin-left: 20%;
         margin-top: -8%;
     }
 
     #duration {
-        width: 180px;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         font-size: 7.5px;
@@ -204,16 +205,14 @@ main{
     }
 
     .duration-text-container {
-        margin-right: -12%;
-        width: 85px;
-        margin-bottom: -2%;
+        margin-right: 3%;
+        width: 80%;
+        flex-basis: 33%;
     }
 
     .duration-text {
         font-size: 10px;
     }
-
-
 }
 
 
